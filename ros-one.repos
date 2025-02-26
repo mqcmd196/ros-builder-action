@@ -1128,8 +1128,6 @@ sbuild_options:
 known_failures:
   "*/*":
     - jsk_3rdparty/*
-    - jsk_common/jsk_data
-    - jsk_common/jsk_ros_patch/multi_map_server
     - jsk_visualization/*
     - jsk_recognition/*
     - jsk_roseus/roseus_tutorials
@@ -1142,7 +1140,6 @@ known_failures:
     - qbdevice-ros/qb_device_gazebo
     - qbhand-ros/qb_hand_gazebo
     - franka_ros/franka_gazebo
-    - catkin_virtualenv/* # removal of deprecated pkgutil.ImpImporter in Python 3.12
     - pr2_ethercat_drivers/ethercat_hardware # deprecation of boost/timer.hpp
     - pr2_robot/pr2_ethercat
     - people/people_tracking_filter # missing bfl?
